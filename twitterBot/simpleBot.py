@@ -14,4 +14,4 @@ twitter = Twython(
 )
 message = "Hello world!"
 twitter.update_status(status=message)
-print("Tweeted: {}".format(message))
+print(f"Tweeted: {message}")
